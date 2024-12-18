@@ -1,0 +1,401 @@
+html{
+    font-size: 14px;
+}
+header {
+    background-image: url(hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.upIcon
+{
+    bottom: 7%;
+    right: 3%;
+    font-size: 24px;
+    width: 25px;
+    height: 25px;
+    padding: 14px;
+}
+/* .test {
+    position: absolute;
+    background-color: rgba(18, 17, 17, 0.7);
+    width: 100%;
+    position: absolute;
+    height: 100%;
+} */
+
+/* .navbar span:hover
+{
+
+} */
+h3::after {
+    content: "|";
+    animation-name: typing;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: "F";
+    }
+
+    1% {
+        content: "Fr";
+    }
+
+    2% {
+        content: "Fre";
+    }
+
+    3% {
+        content: "Free";
+    }
+
+    4% {
+        content: "Freel";
+    }
+
+    5% {
+        content: "Freela";
+    }
+
+    6% {
+        content: "Freelan";
+    }
+
+    7% {
+        content: "Freelanc";
+    }
+
+    8% {
+        content: "Freelance";
+    }
+
+    9% {
+        content: "Freelancer";
+    }
+
+    10% {
+        content: "Freelancer";
+    }
+
+    11% {
+        content: "Freelance";
+    }
+
+    12% {
+        content: "Freelanc";
+    }
+
+    13% {
+        content: "Freelan";
+    }
+
+    14% {
+        content: "Freela";
+    }
+
+    15% {
+        content: "Freel";
+    }
+
+    16% {
+        content: "Free";
+    }
+
+    17% {
+        content: "Fre";
+    }
+
+    18% {
+        content: "Fr";
+    }
+
+    19% {
+        content: "F";
+    }
+
+    20% {
+        content: "";
+    }
+
+
+    21% {
+        content: "P";
+    }
+
+    22% {
+        content: "Ph";
+    }
+
+    23% {
+        content: "Pho";
+    }
+
+    24% {
+        content: "Phot";
+    }
+
+    25% {
+        content: "Photo";
+    }
+
+    26% {
+        content: "Photog";
+    }
+
+    27% {
+        content: "Photogr";
+    }
+
+    28% {
+        content: "Photogra";
+    }
+
+    29% {
+        content: "Photograf";
+    }
+
+    30% {
+        content: "Photografe";
+    }
+
+    35% {
+        content: "Photografer";
+    }
+
+    40% {
+        content: "Photografer";
+    }
+
+    45% {
+        content: "Photografe";
+    }
+
+    50% {
+        content: "Photograf";
+    }
+
+    55% {
+        content: "Photogra";
+    }
+
+    60% {
+        content: "Photogr";
+    }
+
+    65% {
+        content: "Photog";
+    }
+
+    70% {
+        content: "Photo";
+    }
+
+    75% {
+        content: "Phot";
+    }
+
+    80% {
+        content: "Pho";
+    }
+
+    85% {
+        content: "Ph";
+    }
+
+    90% {
+        content: "P";
+    }
+
+    100% {
+        content: "";
+    }
+
+
+}
+
+.content ul , .contact ul{
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.about-contet h2,
+.services h2,
+.portfolio h2,
+.blog h2,
+.contact h2 {
+    position: relative;
+}
+
+.services h2::after,
+.portfolio h2::after,
+.blog h2::after {
+    content: "";
+    height: 3px;
+    width: 100px;
+    background-color: #007aff;
+    position: absolute;
+    top: 100%;
+    left: 45%;
+    transform: translateY(-50%);
+}
+
+.about-contet h2::after,
+.contact h2::after {
+    content: "";
+    height: 3px;
+    width: 100px;
+    background-color: #007aff;
+    position: absolute;
+    top: 85%;
+    left: 0%;
+    transform: translateY(-50%);
+}
+
+.about {
+    background-color: #f5f5f5;
+}
+
+.about-contet p {
+    padding-top: 2rem;
+}
+
+.about span {
+    font-weight: 600;
+}
+
+.progress {
+    height: 10px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin: 20px 0px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #0078ff;
+    transition: 0.5s;
+}
+
+.ico-bg:hover .icon {
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #7ebcfe;
+}
+
+.icon-bb-blue {
+    box-shadow: 0 0 0 10px #7ebcfe;
+}
+
+/* .fixed-img1 {
+    width: 100%;
+    height: 80%;
+    background-image: url(post-3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+} */
+
+/* .fix {
+    background-color: rgb(0, 120, 255, 0.6);
+    width: 100%;
+    height: 80%;
+    position: absolute;
+} */
+
+.icon-content {
+    width: 40px;
+    height: 40px;
+    margin: 20px 0px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #0078ff;
+    transition: 0.5s;
+}
+
+.text-blue,
+.content span {
+    color: #0078ff;
+}
+
+.box:hover img {
+    transform: scale(1.3);
+    z-index: 999;
+}
+
+.box img {
+    transition: transform 1s;
+}
+
+.img-container {
+    overflow: hidden;
+}
+
+/* .sec2 {
+    height: 80%;
+    background-image: url(overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+.mySlide {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.fixed-img {
+    width: 15%;
+}
+
+.card-end {
+    background-color: #f5efef;
+}
+
+.contact-img,
+.fix {
+    background-image: url(overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fixed-img1 {
+    background-image: url(post-3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.layer-img,
+.sec2-layer,
+.sec-layer {
+    background-color: rgb(0, 120, 255, 0.6);
+}
+.accs-icons{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: solid rgba(255, 255, 255, 0.5) 1px;
+}
+.application input
+{
+    transition: 0.5s;
+}
+.application input:hover , textarea:hover
+{
+    border: #0078ff solid ;
+}
+.contact{
+    position: relative;
+}
+/* .arrow
+{
+    color: white;
+    background-color: #0078ff;
+    width: 40px;
+    height: 40px;
+    z-index: 99999;
+    position: absolute;
+    top: 100;
+} */
